@@ -1,6 +1,5 @@
-import React from 'react'
 import {useContext, useEffect} from 'react'
-import { MovieContext } from '../context/MovieContext'
+import { MovieContext } from '../Context/MovieContext'
 import MovieList from '../components/Movies/MovieList';
 import SearchBar from '../components/UI/SearchBar';
 import Pagination from '../components/UI/Pagination';

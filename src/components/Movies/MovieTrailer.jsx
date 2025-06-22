@@ -1,5 +1,3 @@
-import React from "react";
-
 const MovieTrailer = ({ id }) => {
   if (!id) {
     return null;

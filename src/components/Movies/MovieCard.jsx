@@ -1,4 +1,3 @@
-import {useState} from 'react'
 import { BASE_IMAGE_URL, POSTER_SIZE, UNAVAILABLE } from '../../services/config';
 import { RiStarFill } from '@remixicon/react';
 import {Link} from 'react-router-dom';
