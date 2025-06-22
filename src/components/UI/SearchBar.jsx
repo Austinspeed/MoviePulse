@@ -1,6 +1,6 @@
 import { RiSearch2Line } from "@remixicon/react"
 import {useContext} from 'react'
-import {MovieContext} from '../../context/MovieContext'
+import {MovieContext} from '../../Context/MovieContext'
 
 export const SearchBar = () => {
   const {handleSearch, searchQuery, setSearchQuery} = useContext(MovieContext);
